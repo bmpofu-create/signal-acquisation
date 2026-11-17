@@ -1,0 +1,7 @@
+file,structure,train_data,interface_name,automatic_for
+2dcnn_1dcnn_one_channel__marked_waveforms.pt,2D-CNN then 1D-CNN on one channel,marked waveform recordings,2D-CNN + 1D-CNN one channel,"OPC 8-channel, and any setup without a held-out score"
+1dcnn_first_arrival__marked_waveforms.pt,1D-CNN on the first-arrival series,marked waveform recordings,1D-CNN first arrival,"LC3 8-channel, and FA paste when no picture is uploaded"
+2dcnn_tall__unmarked_heatmaps.pt,tall-kernel 2D-CNN,unmarked heatmap pictures,2D-CNN tall kernel,FA paste when a heatmap picture is uploaded
+2dcnn_softmax__marked_waveforms.pt,2D-CNN with a softmax over signals,marked waveform recordings,2D-CNN softmax,manual choice only
+2dcnn_1dcnn_center__marked_waveforms.pt,2D-CNN + 1D-CNN mixed with a center anchor,marked waveform recordings,2D-CNN + 1D-CNN center,manual choice only
+2dcnn_4spatial__unmarked_heatmaps.pt,2D-CNN with 4 spatial layers,unmarked heatmap pictures,"2D-CNN, 4 spatial layers",manual choice only
